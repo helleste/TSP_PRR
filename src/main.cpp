@@ -96,8 +96,8 @@ void findSuccessors(state parentState) {
 			flag = 1;
 			currentState.id = i;
 			toPath(currentState, parentState);
-			printState(currentState);
 			currentState.val = parentState.val + calcVal(parentState, currentState);
+			printState(currentState);
 			toQueue(currentState);
 		}
 	}
