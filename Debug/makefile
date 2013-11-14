@@ -44,7 +44,7 @@ all: TSP
 TSP: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o"TSP" $(OBJS) $(USER_OBJS) $(LIBS)
+	mpic++  -o"TSP" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
