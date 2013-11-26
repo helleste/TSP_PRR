@@ -1,0 +1,5 @@
+Pozor! Nepodarilo se spustit v Eclipse.
+
+- main.cpp ve složce ./src je aktualni
+- TSP ve složce ./Debug je aktualni
+- VŠE OSTATNÍ JE NEAKTUÁLNÍ, tj. nutno znovu zkompilovat z main.cpp v ./src
